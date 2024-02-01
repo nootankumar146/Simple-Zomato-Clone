@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.zomato{
+    background: linear-gradient(rgba(0, 0, 0, 0.449),rgba(0, 0, 0, 0.449)),url("./image/bg.webp");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+
+}
+.logo img{
+    padding-right: 170px;
+
+}
+.link a{
+    text-decoration: none;
+    color:white;
+    padding: 0px 20px 0px 0px;
+}
+.link  #link1{
+ color: white;
+ background-color: rgba(255, 255, 255, 0.074);
+ width: 70px;
+ height: 35px;
+ border: 1px solid white;
+ border-radius: 9px;
+ text-align: center;
+ margin-right: 20px;
+
+}
+
+.link #link2{
+    color:white;
+    background-color: rgb(10, 148, 246);
+    border: 1px solid rgba(17, 153, 251, 0.732);
+    border-radius: 9px;
+    width:120px;
+ height: 35px;
+ text-align: center;
+ 
+}
+.desc{
+    color: white;
+    padding: 28px 0px 0px 380px;
+    font-size: 20px;
+    
+
+    
+}
+.desc2{
+    color:white;
+    padding: 35px 0px 0px 380px;
+    font-size: 18px;
+    
+}
+.button{
+    padding: 20px 0px 0px 380px;
+    color: white;
+}
+.button #btn1{
+    background-color:rgba(17, 153, 251, 0.732);
+    color: white;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 1px solid rgba(17, 153, 251, 0.732);
+}
+.button #btn2{
+    color:black;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 1px solid wheat;
+    margin-left: 10px;
+}
+.button p{
+    padding: 10px 0px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.online{
+    background-color:rgb(244, 244, 244);
+    padding-bottom: 30px;
+    
+}
+.box{
+    background-color:white;
+    width:600px;
+    height: 300px;
+    border: none;
+    border-radius: 5px;    
+    padding: 0px 50px;
+    position:relative;
+    top: -25px;
+    left: 380px ;
+}
+.Get{
+    padding: 40px 10px;
+}
+.Get h1{
+    font-size: 30px;
+    text-align: center;
+}
+.Get p{
+    padding:10px 0px 0px 100px ;
+    font-size: 18px;
+    color:gray ;
+}
+
+.order{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.order2{
+    display: inline-block;
+    padding: 0px 100px 0px 0px;
+}
+.order2 img{
+    position: relative;
+    top: 21px;
+    right: 20px;
+}
+
+.order1{
+    display: inline-block;
+    padding: 0px 0px 0px 10px;
+}
+.order1 img{
+    position: relative;
+    top: 21px;
+    right: 20px;
+}
+
+.rating{
+    background-color: white;
+    color:black;
+    padding-top: 100px;
+    
+}
+.title4{
+    padding: 50px 0px 0px 400px;
+}
+.title{
+     margin-left: 40px;
+     height: 430px;
+}
+.desc9{
+    padding:20px 500px 0px 300px ;
+    color: gray;
+    text-align: center;
+    font-size: 19px;
+
+}
+.main{
+    display: flex;
+    margin:90px 0px 50px 300px;
+}
+.citie{
+     height: 50px ;
+    width: 180px; 
+    background-color: rgba(255, 255, 255);
+    border: 1px solid rgb(244, 244, 244);
+    height: 90px;
+    width: 240px;
+    box-shadow: -3px -3px 14px whitesmoke,
+    3px 4px 14px whitesmoke;
+    border-radius: 5px;
+} 
+
+.mimg{
+        display: flex;
+        align-items: center; 
+        
+}
+.mimg h4{
+     font-size: 25px;
+   color: blue;
+    padding: 20px 0px 0px 15px;
+}
+
+
+.mimg p{
+    font-size:20px ;
+    color: gray;
+    padding: 0px 35px 0px 20px;
+}
+.mimg img{
+    padding: 30px 10px 10px 30px;
+    height: 35px;
+
+}
+.mimg2{
+    display: flex;
+    align-items: center;
+}
+.mimg2 p{
+    font-size:20px; 
+    color: gray;
+}
+.mimg2 h4{
+     font-size: 25px;
+    color: blue;
+    padding-top: 20px;
+}
+.mimg2 img{
+    height: 35px;
+    padding: 30px 30px 5px 30px;
+    }
+.mimg3{
+    display: flex;
+    align-items: center;
+
+}
+.mimg3 p{
+    font-size:20px ; 
+    color: grey;
+}
+.mimg3 h4{
+    font-size: 25px;
+    color: blue;
+    padding-left: 5px;
+    padding-top: 20px;   
+}
+.mimg3 img{
+        height: 35px;
+        padding: 30px 30px 5px 30px;
+}
+.lakh{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(244, 244, 244);
+    height: 90px;
+    width: 280px;
+    box-shadow: -3px -3px 14px whitesmoke ,
+    3px 4px 14px whitesmoke;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+.crore{
+      background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(244, 244, 244);
+    height: 90px;
+    width: 300px;
+  box-shadow: -3px -3px 14px whitesmoke,
+  3px 4px 14px whitesmoke;
+  border-radius: 5px;
+}
+.works{
+    background-image: url('./image/work\ bg3.webp');
+    
+    height: 50vh;
+}
+.worktitle{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+}
+.step{
+    display: flex;
+    position: relative;
+    top:50px;
+    left: 300px;
+    width: 900px;
+    height: 350px; 
+    padding-bottom: 50px;
+   
+}
+
+
+.step1{
+    border: 2px solid rgb(244, 244, 244);
+    border-radius: 5px;
+    width: 600px;
+    background-color:rgb(255, 255, 255);
+    box-shadow:  0px 10px 70px rgba(228, 233, 235, 0.5);
+   
+}
+.step2{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0px 20px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0px 10px 70px rgba(228, 233, 235, 0.5);
+    
+}
+.step3{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0px 10px 70px rgba(228, 233, 235, 0.5);
+}
+.img img{
+    width: 70px;
+    border-radius: 100px;
+     background-color:rgb(255, 252, 241); 
+    padding: 30px 30px;
+    margin:25px 0px 0px 75px;   
+}
+.wtext {
+    text-align: center;
+   padding-top: 20px;
+   font-size: 25px;
+
+}
+.wtext2{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 18px;    
+}
+.wtext3{
+    text-align: center;
+    padding: 5px 10px;
+    color: gray;
+}
+.img2 img{    
+    width: 70px;
+    border-radius: 100px;
+    background-color: rgb(255, 245, 246);
+    padding: 30px 30px;
+    margin:25px 0px 0px 75px;
+}
+.img3 img{
+    width: 70px;
+    border-radius: 100px;
+    background-color: rgb(255, 249, 241); 
+    padding: 30px 30px;
+    margin:25px 0px 0px 75px;
+}
